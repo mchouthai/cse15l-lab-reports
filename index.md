@@ -12,6 +12,5 @@ Hello World!<br>
 > Hello World <br><br>
 Hello World:
 --- 
-<br>
-`Hello` world <br>
+`Hello` world 
 ![Image](https://cdn.pixabay.com/photo/2017/09/25/13/12/cocker-spaniel-2785074__480.jpg)
