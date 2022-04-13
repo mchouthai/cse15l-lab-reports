@@ -18,6 +18,7 @@ Go to [Link](https://code.visualstudio.com) and download the latest stable build
 First lets go over some simple terminal commands and what they do.<br>
 `cd`: changes the directory that you are working in.<br>
 `pwd`: shows you the current path you are working in. <br>
+`cp`: 
 `ls`: once you are in a directory (using cd) ls gives you a list of contents in that directory. <br>
 `ls -lat`: gives details about the contents (l) (including hidden files (a)) like author, permissions, modified date, etc. and organizes the content by time/date (t). <br> 
 - Local client <br><br>
@@ -47,6 +48,15 @@ You can use scp to move files between local client and the remote computer.<br>
 1. `scp /Users/meghachouthai/.ssh/id_rsa.pub cs15lsp22awm@ieng6.ucsd.edu:~/.ssh/authorized_keys` which moves the key from local client to remote server. 
 2. now you do not need to enter password each time.<br><br>
 ![Image](https://i.imgur.com/DU2xKht.png)<br><br>
+**Step 6: Optimizing Remote Running**<br><br>
+Some pointers on how to optimize remote running.<br>
+- running `ssh cs15lsp22awm@ieng6.ucsd.edu + "<given command>"` in terminal runs the given command in the remote server directly, so you do not have to run an additional step to connect to the server as seen below.<br><br> 
+![Image](https://i.imgur.com/2wC2nN9.png)<br><br>
+- Use semicolons to run more than one command. *the commands are interspaced by the semi-colon.*
+
+
+
+
 
 
 
